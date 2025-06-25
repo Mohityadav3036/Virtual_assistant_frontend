@@ -92,6 +92,7 @@ const handleCommand= async(data)=>{
 
 
    useEffect(()=>{
+      alert("Please open it on Chrome");
          
           const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
 
@@ -205,7 +206,7 @@ const handleCommand= async(data)=>{
 
   return (
      <div className=" w-full h-[100vh] bg-gradient-to-t from-[black] to-[#050569] flex  justify-center items-center flex-col gap-[10px]">
-
+      
         <BiMenuAltRight className='  text-white absolute top-[20px] right-[20px] w-[25px] h-[25px] cursor-pointer' onClick={()=>setHam(true)}/>
 
         <div className={` absolute lg:hidden  top-0 w-full h-full bg-[#00000022] backdrop-blur-lg  p-[20px] flex flex-col gap-[20px] items-start ${ham?"translate-x-0":"translate-x-full"}`}>
