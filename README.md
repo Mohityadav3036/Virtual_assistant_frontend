@@ -1,12 +1,50 @@
-# React + Vite
+# 🤖 AI Assistant (MERN + Gemini AI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intelligent AI-powered assistant built using the MERN stack (MongoDB, Express.js, React, Node.js) and integrated with Gemini AI by Google. This assistant allows users to interact via natural language and get smart, contextual responses. Perfect for building a personal AI companion or productivity assistant.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 💬 Real-time chatbot powered by Gemini AI
+- 🔐 Secure user authentication (Register/Login)
+- 📜 Persistent chat history per user
+- 🌐 RESTful API for backend operations
+- 🧠 AI prompt handling and response generation
+- 🎨 Responsive UI with modern design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Tailwind CSS
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Gemini AI (Google Generative AI)
+- JWT for Auth
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and npm
+- MongoDB (local or Atlas)
+- Gemini AI API key from [Google AI Studio](https://aistudio.google.com/)
+
+---
+
+### 📦 Installation
+
+#### 1. Clone the Repository
+
+cd ../frontend
+npm install
+npm run dev
